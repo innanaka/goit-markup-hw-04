@@ -160,7 +160,7 @@ a {
 .address-nav:focus {
   color: #404bbf;
 }
-.main-hero.container {
+.main-hero .container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -171,7 +171,14 @@ a {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/MainHero.jpg");
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid #000;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-repeat: no-repeat;
 }
+
 .nav-main {
   display: flex;
   align-items: center;
@@ -267,6 +274,20 @@ a {
 }
 .border-team {
   padding: 32px 16px;
+}
+.social-links {
+  margin: 8px 16px;
+  text-align: center;
+  padding-left: 24px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
 }
 
 .team-worker {
