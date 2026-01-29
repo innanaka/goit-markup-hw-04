@@ -78,6 +78,12 @@ h1 {
   margin: auto;
   padding-top: 0px;
   padding-bottom: 0px;
+  text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  
 }
 
 header {
@@ -200,7 +206,7 @@ a {
   padding: 16px 32px;
   width: 169px;
   height: 56px;
-  border: none;
+  border: 1px solid #000;
   text-align: center;
   white-space: nowrap;
   display: block;
@@ -234,6 +240,15 @@ a {
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
+.conteiner-features {
+  border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+}
+
 .text-features {
   font-weight: 400;
   font-size: 16px;
@@ -271,6 +286,7 @@ a {
   padding: 0;
   display: flex;
   flex-direction: column;
+  width: 264px;
 }
 .border-team {
   padding: 32px 16px;
@@ -278,16 +294,19 @@ a {
 .social-links {
   display: flex;
   gap: 24px; 
-  margin: 8px 16px;
+  margin-top: 8px;
 }
 
-.icon {
+.social-icon {
   width: 40px;
   height: 40px;
-  display: inline-block;
-  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   border-radius: 50%;
   background-color: #4d5ae5;
+  fill:#fff;
  
 }
 
@@ -397,4 +416,20 @@ a {
   text-transform: uppercase;
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
+}
+.text-social {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.social-links-footer {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+.footer .container {
+  display: flex;
+  gap: 120px;
 }
