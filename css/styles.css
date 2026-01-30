@@ -448,7 +448,7 @@ a {
 .portfolio-part {
   background: #fff;
   width: 360px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .border-portfolio {
   border-bottom: 1px solid #e7e9fc;
